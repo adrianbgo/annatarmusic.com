@@ -1,5 +1,7 @@
+import { ObjectId } from "mongodb";
+
 export interface Blog {
-    id: string;
+    _id: ObjectId;
     title: string;
     content: string;
     tags: string[];
